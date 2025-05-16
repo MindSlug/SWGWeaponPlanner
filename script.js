@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         weaponSelect.appendChild(opt);
     });
 
-    const rangedCategory = ['PISTOLWEAPON','CARBINEWEAPON','RIFLEWEAPON','SPECIALHEAVYWEAPON'];
+    const rangedCategory = ['PISTOLWEAPON','CARBINEWEAPON','RIFLEWEAPON','FLAMETHROWER', 'ACIDRIFLE', 'LIGHTNINGRIFLE'];
     const jediCategory   = ['ONEHANDJEDIWEAPON','TWOHANDJEDIWEAPON','POLEARMJEDIWEAPON'];
 
     // Only show the highest numbered variant of each command base name
